@@ -97,3 +97,7 @@ app.use("/users", userRoutes);
 app.listen(process.env.PORT, process.env.IP || 5000, () => {
   console.log("The Vidjot Server Has Started Port 5000!");
 });
+
+// app.listen(5000 || process.env.PORT, process.env.IP || 5000, () => {
+//   console.log("The Vidjot Server Has Started Port 5000!");
+// });
